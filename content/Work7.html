@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='組員名單.html'>組員名單</a></li></ul><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='WORK.html'>WORK</a><ul class='dropdown'><li class='has-children'><a href='Work1.html'>Work1</a><ul class='dropdown'><li><a href='建立可攜系統.html'>建立可攜系統</a></li></ul><li class='has-children'><a href='Work2.html'>Work2</a><ul class='dropdown'><li><a href='webots設定.html'>webots設定</a></li></ul><li class='has-children'><a href='Work3.html'>Work3</a><ul class='dropdown'><li><a href='xelatex.html'>xelatex</a></li></ul><li class='has-children'><a href='Work4.html'>Work4</a><ul class='dropdown'><li><a href='瞭解四輪機器人.html'>瞭解四輪機器人</a></li></ul><li class='has-children'><a href='Work5.html'>Work5</a><ul class='dropdown'><li><a href='VirtualBox.html'>VirtualBox</a></li></ul><li><a href='Work6.html'>Work6</a><li><a href='Work7.html'>Work7</a></li></ul><li class='has-children'><a href='問題解決.html'>問題解決</a><ul class='dropdown'><li><a href='push衝突.html'>push衝突</a></li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='組員名單.html'>組員名單</a></li></ul><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='WORK.html'>WORK</a><ul class='dropdown'><li class='has-children'><a href='Work1.html'>Work1</a><ul class='dropdown'><li><a href='建立可攜系統.html'>建立可攜系統</a></li></ul><li class='has-children'><a href='Work2.html'>Work2</a><ul class='dropdown'><li><a href='webots設定.html'>webots設定</a></li></ul><li class='has-children'><a href='Work3.html'>Work3</a><ul class='dropdown'><li><a href='xelatex.html'>xelatex</a></li></ul><li class='has-children'><a href='Work4.html'>Work4</a><ul class='dropdown'><li><a href='瞭解四輪機器人.html'>瞭解四輪機器人</a></li></ul><li class='has-children'><a href='Work5.html'>Work5</a><ul class='dropdown'><li><a href='VirtualBox.html'>VirtualBox</a></li></ul><li><a href='Work6.html'>Work6</a><li><a href='Work7.html'>Work7</a><li><a href='Work8.html'>Work8</a></li></ul><li class='has-children'><a href='問題解決.html'>問題解決</a><ul class='dropdown'><li><a href='push衝突.html'>push衝突</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,10 +154,58 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Work6 << <a href='Work6.html'>Previous</a> <a href='問題解決.html'>Next</a> >> 問題解決<br /><h1>Work7</h1>
-<p>這是我們組ag1所共同組起的車子並已在<span>coppeliasimcoppeliasim完成作動</span></p>
-<p><img alt="" height="648" src="./../images/車車.jpg" width="1152"/></p>
-<br />Work6 << <a href='Work6.html'>Previous</a> <a href='問題解決.html'>Next</a> >> 問題解決</div>
+    <div id="tipue_search_content">Work6 << <a href='Work6.html'>Previous</a> <a href='Work8.html'>Next</a> >> Work8<br /><h1>Work7</h1>
+<p>成功讓外部主機連上</p>
+<p>由於是在學校的共用電腦所以先確認虛擬主機的網路設定，確認ifconfig查到的ID和設定的相同，IPv6的host ID是否是自己被分配到的ID</p>
+<p>確認無誤後，再執行wsgi.py，在虛擬主機測試，但在開啟時缺少pydrive，所以補裝上</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_207357">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">pip3 install pydrive</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>開啟網頁時還是出現錯誤，就更新mako，先到mako模組的目錄下移除mako，再安裝mako 1.1.3 版本</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_918382">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">cd /usr/lib/python3/dist-packages</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">sudo re -r mako</code></div>
+<div class="line number3 index2 alt2"><code class="html plain">sudo pip3 install mako==1.1.3</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>之後wsgi.py開啟後就正常了</p>
+<p>接下來就測試外面的主機是否可以正常連上</p>
+<p>先到網路卡設定</p>
+<p>設定好把proxy和防火牆關閉</p>
+<p>再用瀏覽器連到https://[2001:288:6004:17:2020:1:0:7151]:17443</p>
+<p>成功連線</p>
+<br />Work6 << <a href='Work6.html'>Previous</a> <a href='Work8.html'>Next</a> >> Work8</div>
         
     <!-- footer -->
       <div class="container">
