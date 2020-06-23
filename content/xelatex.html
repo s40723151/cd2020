@@ -154,8 +154,130 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">WORK << <a href='WORK.html'>Previous</a> <a href='建立可攜系統.html'>Next</a> >> 建立可攜系統<br /><h1>Work1</h1>
-<br />WORK << <a href='WORK.html'>Previous</a> <a href='建立可攜系統.html'>Next</a> >> 建立可攜系統</div>
+    <div id="tipue_search_content">Work3 << <a href='Work3.html'>Previous</a> <a href='Work4.html'>Next</a> >> Work4<br /><h1>xelatex</h1>
+<h6><br/>到 <a href="https://miktex.org/download">https://miktex.org/download</a> 下載，載下來的檔案重新命名為 <span>miktex-portable.exe ，再執行安裝。在 start.bat 納入 Y:\miktex-portable\texmfs\install\miktex\bin\x64 搜尋路徑，開啟隨身系統後，確定可以執行 xelatex。</span></h6>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_781681">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">set path_xelatex=%Disk%:\miktex-portable\texmfs\install\miktex\bin\x64;</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><span></span><span>將下列 LaTeX 存為 article.tex</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_503815">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">% UTF-8 encoding</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">% Compile with latex+dvipdfmx, pdflatex, xelatex or lualatex</code></div>
+<div class="line number3 index2 alt2"><code class="html plain">% XeLaTeX is recommanded</code></div>
+<div class="line number4 index3 alt1"><code class="html plain">\documentclass{article}</code></div>
+<div class="line number5 index4 alt2"><code class="html plain">\usepackage{xeCJK}</code></div>
+<div class="line number6 index5 alt1"><code class="html plain">\setCJKmainfont{SimSun}</code></div>
+<div class="line number7 index6 alt2"><code class="html plain">\begin{document}</code></div>
+<div class="line number8 index7 alt1"><code class="html plain">\LaTeX 文章内容。</code></div>
+<div class="line number9 index8 alt2"><code class="html plain">\end{document}</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p><span>利用</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_812011">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">xelatex article.tex</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>再測試</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_262866">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+<div class="line number11 index10 alt2">11</div>
+<div class="line number12 index11 alt1">12</div>
+<div class="line number13 index12 alt2">13</div>
+<div class="line number14 index13 alt1">14</div>
+<div class="line number15 index14 alt2">15</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">\documentclass[]{article}</code></div>
+<div class="line number2 index1 alt1"> </div>
+<div class="line number3 index2 alt2"><code class="html plain">\usepackage{graphicx}</code></div>
+<div class="line number4 index3 alt1"><code class="html plain">\usepackage{xeCJK}</code></div>
+<div class="line number5 index4 alt2"><code class="html plain">\setCJKmainfont{SimSun}</code></div>
+<div class="line number6 index5 alt1"> </div>
+<div class="line number7 index6 alt2"><code class="html plain">\begin{document}</code></div>
+<div class="line number8 index7 alt1"> </div>
+<div class="line number9 index8 alt2"><code class="html plain">90 degree rotation \rotatebox[origin=c]{90}{MDE 機械設計.}</code></div>
+<div class="line number10 index9 alt1"> </div>
+<div class="line number11 index10 alt2"><code class="html plain">Vertical Flip \scalebox{1}[-1]{NFU 虎尾科大.}</code></div>
+<div class="line number12 index11 alt1"> </div>
+<div class="line number13 index12 alt2"><code class="html plain">Horizontal Flip \scalebox{-1}[1]{台灣 Taiwan.}</code></div>
+<div class="line number14 index13 alt1"> </div>
+<div class="line number15 index14 alt2"><code class="html plain">\end{document}</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>CoppeliaSim：</p>
+<p>下載<span> </span><a href="https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Win.zip">CoppeliaSim Edu, Binaries</a>的版本，把資料放到可攜系統下</p>
+<br />Work3 << <a href='Work3.html'>Previous</a> <a href='Work4.html'>Next</a> >> Work4</div>
         
     <!-- footer -->
       <div class="container">
