@@ -108,6 +108,7 @@ img.add_border {
 </head>
 <body>
 <div class='container'><nav>
+        
     <div class="site-wrap">
 
     <div class="site-mobile-menu">
@@ -153,4 +154,123 @@ img.add_border {
           </div>
           
         </header>
-    </nav><section><h1>Site Map</h1><div id="tipue_search_content"></div><ul><li><a href='About.html'>About</a><ul><li><a href='組員名單.html'>組員名單</a></li></ul><li><a href='Develop.html'>Develop</a><li><a href='系統設定.html'>系統設定</a><ul><li><a href='webots設定.html'>webots設定</a></li></ul><li><a href='WORK.html'>WORK</a><ul><li><a href='Work1.html'>Work1</a><ul><li><a href='建立可攜系統.html'>建立可攜系統</a></li></ul><li><a href='Work2.html'>Work2</a><ul><li><a href='瞭解四輪機器人.html'>瞭解四輪機器人</a></li></ul><li><a href='Work3.html'>Work3</a><ul><li><a href='VirtualBox.html'>VirtualBox</a></li></ul><li><a href='Work4.html'>Work4</a></li></ul><li><a href='問題解決.html'>問題解決</a><ul><li><a href='push衝突.html'>push衝突</a></li></ul></section></div></body></html>
+    <div id="tipue_search_content">系統設定 << <a href='系統設定.html'>Previous</a> <a href='WORK.html'>Next</a> >> WORK<br /><h1>webots設定</h1>
+<p>MSYS2裡建立Windows 64位元環境下gcc編譯環境，安裝<span>mingw-w64-x86_64-gcc 與 mingw-w64-x86_64-toolchain。</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_166411">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html comments">&lt;!-- 安裝 mingw-w64-x86_64-gcc --&gt;</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">pacman -S mingw-w64-x86_64-gcc</code></div>
+<div class="line number3 index2 alt2"><code class="html comments">&lt;!-- 安裝 mingw-w64-x86_64-toolchain --&gt;</code></div>
+<div class="line number4 index3 alt1"><code class="html plain">pacman -S mingw-w64-x86_64-toolchain</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>安裝完成後，測試編譯以下簡單的 C 程式：</p>
+<div>
+<div class="syntaxhighlighter cpp" id="highlighter_663149">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="cpp comments">// hello.c</code></div>
+<div class="line number2 index1 alt1"><code class="cpp preprocessor">#include &lt;stdio.h&gt;</code></div>
+<div class="line number3 index2 alt2"> </div>
+<div class="line number4 index3 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">main() {</code></div>
+<div class="line number5 index4 alt2"><code class="cpp spaces">    </code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"Hello, world!\n"</code><code class="cpp plain">);</code></div>
+<div class="line number6 index5 alt1"><code class="cpp spaces">    </code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div>
+<div class="line number7 index6 alt2"><code class="cpp plain">}</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>存在 tmp\c_ex 目錄下，命名為 hello.c然後利用：</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_37422">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">gcc -o hello.exe hello.c</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>表示要將編譯 hello.c 的 output 設為 hello.exe 完成後，直接執行 hello.exe</p>
+<br />系統設定 << <a href='系統設定.html'>Previous</a> <a href='WORK.html'>Next</a> >> WORK</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        

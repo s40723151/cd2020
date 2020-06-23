@@ -16,7 +16,84 @@
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
-<h4></h4>
+<h1>系統設定</h1>
+<h2>webots設定</h2>
+<p>MSYS2裡建立Windows 64位元環境下gcc編譯環境，安裝<span>mingw-w64-x86_64-gcc 與 mingw-w64-x86_64-toolchain。</span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_166411">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html comments">&lt;!-- 安裝 mingw-w64-x86_64-gcc --&gt;</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">pacman -S mingw-w64-x86_64-gcc</code></div>
+<div class="line number3 index2 alt2"><code class="html comments">&lt;!-- 安裝 mingw-w64-x86_64-toolchain --&gt;</code></div>
+<div class="line number4 index3 alt1"><code class="html plain">pacman -S mingw-w64-x86_64-toolchain</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>安裝完成後，測試編譯以下簡單的 C 程式：</p>
+<div>
+<div class="syntaxhighlighter cpp" id="highlighter_663149">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="cpp comments">// hello.c</code></div>
+<div class="line number2 index1 alt1"><code class="cpp preprocessor">#include &lt;stdio.h&gt;</code></div>
+<div class="line number3 index2 alt2"> </div>
+<div class="line number4 index3 alt1"><code class="cpp color1 bold">int</code> <code class="cpp plain">main() {</code></div>
+<div class="line number5 index4 alt2"><code class="cpp spaces">    </code><code class="cpp functions bold">printf</code><code class="cpp plain">(</code><code class="cpp string">"Hello, world!\n"</code><code class="cpp plain">);</code></div>
+<div class="line number6 index5 alt1"><code class="cpp spaces">    </code><code class="cpp keyword bold">return</code> <code class="cpp plain">0;</code></div>
+<div class="line number7 index6 alt2"><code class="cpp plain">}</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>存在 tmp\c_ex 目錄下，命名為 hello.c然後利用：</p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_37422">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain">gcc -o hello.exe hello.c</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>表示要將編譯 hello.c 的 output 設為 hello.exe 完成後，直接執行 hello.exe</p>
 <h1>WORK</h1>
 <h2>Work1</h2>
 <h3>建立可攜系統</h3>
@@ -506,6 +583,7 @@
 <p>運行模擬，然後復制並粘貼機器人：您將看到重複的機器人將直接運行，因為附加的子腳本負責啟動各自外部應用程序的新實例，或調用適當的插件函數。</p>
 <h2>Work3</h2>
 <h3>VirtualBox</h3>
+<h4>設定IPV6及IPV4</h4>
 <p>設定IPV4</p>
 <p><img alt="" height="648" src="http://mde.tw/cdaw15-1/images/IPV4.jpg" width="1152"/></p>
 <p>設定IPV6</p>
