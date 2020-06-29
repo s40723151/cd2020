@@ -240,7 +240,7 @@ CMSimfly 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.9">&lt;!-- &lt;section data-markdown&gt; --&gt;
+<t tx="leo.20180902120523.9">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
