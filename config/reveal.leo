@@ -24,16 +24,17 @@
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>可攜系統</vh>
-<v t="leo.20180902120523.19"><vh>可攜系統</vh></v>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
+<v t="leo.20200629233820.1"><vh>可攜系統</vh>
+<v t="leo.20200629233820.2"><vh>可攜系統</vh></v>
+</v>
+<v t="leo.20180902120523.18"><vh>Work</vh>
+<v t="leo.20180902120523.19"><vh>WORK</vh></v>
 </v>
 </v>
 </v>
@@ -75,11 +76,6 @@ Created by [40723151](https://s40723151.github.io/cd2020/content/index.html)
 * 按 o 鍵可以切換單張或全域檢視 (overview)
 * 按 b 或 . 鍵可以切換螢幕黑屏 (black)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
 
 </t>
 <t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
@@ -148,12 +144,16 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180902120523.19">##建立可攜系統
+<t tx="leo.20180902120523.19">##工作報告
 
-### 製作過程
 
-&lt;iframe src="https://s40723151.github.io/cd2020/content/%E5%8F%AF%E6%94%9C%E7%B3%BB%E7%B5%B1.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+1.Webots設定[work1](https://s40723151.github.io/cd2020/content/webots%E8%A8%AD%E5%AE%9A.html)
+2.xelatex[work2](https://s40723151.github.io/cd2020/content/xelatex.html)
+3.瞭解四輪機器人[work3](https://s40723151.github.io/cd2020/content/%E7%9E%AD%E8%A7%A3%E5%9B%9B%E8%BC%AA%E6%A9%9F%E5%99%A8%E4%BA%BA.html)
+4.VirtualBox設定IPV4及IPV6[work4](https://s40723151.github.io/cd2020/content/VirtualBox.html)
+5.IPV6[work5](https://s40723151.github.io/cd2020/content/Work5.html)
+6.利用VirtualBox確認連線問題[work6](https://s40723151.github.io/cd2020/content/Work6.html)
+7.協同設計汽車[work7](https://s40723151.github.io/cd2020/content/Work7.html)</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
@@ -325,5 +325,20 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200629233820.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200629233820.2">##建立可攜系統
+
+### 製作過程
+
+&lt;iframe src="https://s40723151.github.io/cd2020/content/%E5%8F%AF%E6%94%9C%E7%B3%BB%E7%B5%B1.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 </tnodes>
 </leo_file>
