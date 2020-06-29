@@ -102,7 +102,7 @@ $$I = \int \rho R^{2} dV$$
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
+&lt;-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -234,7 +234,7 @@ CMSimfly 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+<t tx="leo.20180902120523.8">&lt;Any section element inside of this container is displayed as a slide&gt;
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;
