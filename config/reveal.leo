@@ -45,15 +45,15 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
+<t tx="leo.20180902120523.10">## 協同產品40723151
 
 ### KMOLab
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [羅裕傑]
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+[四設二甲40723151羅裕傑](https://s40723151.github.io/cd2020/content/index.html)
 
 
 </t>
@@ -220,6 +220,7 @@ CMSimfly 網際內容管理
                 { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                 { src: 'plugin/zoom-js/zoom.js', async: true },
                 { src: 'plugin/notes/notes.js', async: true },
+                { src: 'plugin/zoom-js/zoom.js', async: true },
                 { src: 'plugin/math/math.js', async: true }
             ]
         });
@@ -238,7 +239,7 @@ CMSimfly 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.9">&lt;section data-markdown&gt;
+<t tx="leo.20180902120523.9">&lt;!-- &lt;section data-markdown&gt; --&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
