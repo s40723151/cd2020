@@ -45,17 +45,18 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## 協同產品40723151
+<t tx="leo.20180902120523.10">## 協同產品設計實習
 
 ### KMOLab
 
 &lt;small&gt;
-Created by [羅裕傑]
+Created by [40723151](https://s40723151.github.io/cd2020/content/index.html)
 &lt;/small&gt;
 
-[四設二甲40723151羅裕傑](https://s40723151.github.io/cd2020/content/index.html)
+                                            
+[github](https://github.com/s40723151/cd2020)
 
-
+                                             
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
