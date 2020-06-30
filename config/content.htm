@@ -55,7 +55,8 @@
 <p><span><strong>設計協作需要解決建造中伴隨的複雜，關鍵問題</strong></span><br/><span><strong>很棒的產品和經驗。 通過利用多個團隊成員的專業知識</strong></span><br/><span><strong>跨學科的設計協作可確保團隊從各個角度應對挑戰</strong></span><br/><span><strong>並尋求更好的解決方案。 借助正確的思維方式，工具和流程，進行設計協作</strong></span><br/><span><strong>使團隊能夠通過創造性思維和迭代來更深入。</strong></span><br/><span><strong>我們希望本指南為您提供良好的基礎，以便您可以構建自己的有效設計</strong></span><br/><span><strong>協作過程。 您可以在Savvy博客上了解有關設計和產品策略的更多信息，</strong></span><br/><span><strong>並隨時在Savvy Apps網站上與我們聯繫以尋求幫助。</strong></span></p>
 <h2>心得</h2>
 <p>這是一個未來的趨勢,在雲端上相互合作創作,或許在台灣尚未盛行,可是全世界都逐漸將創作放置雲端相互開發.這種方式不只可以做開發還能相互吸取知識,以達到所有開發者都在最新的知識水平.或許我還達不到那種高度可是我非常嚮往這樣的方式,由於也是全開放的所以機能性非常強大,不僅能開發還能學習,相互反饋以達到所有人成長的最大效果</p>
-<p><span></span></p><h1>可攜系統</h1>
+<p><span></span></p>
+<h1>可攜系統</h1>
 <p><span>先創可攜系統的目錄 </span><span>”CD2020” </span><span>，在 </span><span>CD2020 </span><span>的目錄下新增 </span><span>”data”</span><span>。</span></p>
 <p>Python 3.8.2<br/>到 <span><a href="https://www.python.org/downloads/release/python-382/">https://www.python.org/downloads/release/python-382/</a> </span>搜尋<span>”Windows x86-64 executable installer”</span>並下載<span>”Windows x86-64 executable installer”</span>，下載完後，執行<span>python-3.8.2-amd64.exe</span></p>
 <p><span>PortableGit：<br/><a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a> 下載 64-bit Git for Windows Portable 安裝在 data 目錄下</span></p>
@@ -531,6 +532,18 @@
 <p>CoppeliaSim：</p>
 <p>下載<span> </span><a href="https://www.coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Win.zip">CoppeliaSim Edu, Binaries</a>的版本，把資料放到可攜系統下</p>
 <h2>Work3</h2>
+<h3>OBS串流設定</h3>
+<p>需要先認證開通youtube頻道</p>
+<p>並且在直播工作室取得串流金鑰</p>
+<p><img alt="" height="768" src="/images/youtube金鑰.jpg" width="1366"/></p>
+<p>將串流金鑰複製到OBS的設定中</p>
+<p><img alt="" height="768" src="/images/OBS金鑰.jpg" width="1366"/></p>
+<p>在OBS的來源欄位中可以加入自己需要的視窗,例如視訊鏡頭或聊天室等</p>
+<p><img alt="" height="300" src="/images/來源.jpg" width="583"/></p>
+<p>完成後點下"開始串流"即能串流在直播工作室中點下進行直播</p>
+<p>點下分享符號就能以網址或各大社群進行推廣</p>
+<p><img alt="" height="300" src="/images/分享.jpg" width="583"/></p>
+<h2>Work4</h2>
 <h3>瞭解四輪機器人</h3>
 <p>首先翻譯我們覺得比較有實用的內容</p>
 <p>可碰撞物體<span>(Collidable objects)</span></p>
@@ -859,7 +872,7 @@
 <p>在每次仿真過程中，將傳感器值發送到控制器，並從控制器讀取所需的電機值</p>
 <p>在每次模擬過程中，將所需的電機值應用於機器人的關節</p>
 <p>運行模擬，然後復制並粘貼機器人：您將看到重複的機器人將直接運行，因為附加的子腳本負責啟動各自外部應用程序的新實例，或調用適當的插件函數。</p>
-<h2>Work4</h2>
+<h2>Work5</h2>
 <h3>VirtualBox</h3>
 <h4>設定IPV6及IPV4</h4>
 <p>設定IPV4</p>
@@ -873,7 +886,7 @@
 <p><img alt="" height="648" src="http://mde.tw/cdaw15-1/images/%E7%B6%B2%E5%9D%80.jpg" width="1152"/></p>
 <p>在firefox中輸入網址獲得以下畫面表示連線成功</p>
 <p><img alt="" height="712" src="http://mde.tw/cdaw15-1/images/%E7%B6%B2%E7%AB%99.jpg" width="1266"/></p>
-<h2>Work5</h2>
+<h2>Work6</h2>
 <p>配置IPv6在指定網路位置外部連線</p>
 <p></p>
 <p>每個人依照學號分配到一個IPv6的網路位置</p>
@@ -919,7 +932,7 @@
 <p>若在第一項遇到問題就要檢查網路設定是否正確</p>
 <p>第二項確認ifconfig所查到的IP是否為fd開頭，wsgi.py的ID是否為查到的IP，網址是[IPv6的ID]:啟動的Port號</p>
 <p>第三項要確認網卡的IPv6設定是否正確，防火牆和proxy是否關閉，網址的Port號是否與設定的相同，若分配到的網路位置連不到可先換成::1看是否連的上</p>
-<h2>Work6</h2>
+<h2>Work7</h2>
 <p>成功讓外部主機連上</p>
 <p>由於是在學校的共用電腦所以先確認虛擬主機的網路設定，確認ifconfig查到的ID和設定的相同，IPv6的host ID是否是自己被分配到的ID</p>
 <p>確認無誤後，再執行wsgi.py，在虛擬主機測試，但在開啟時缺少pydrive，所以補裝上</p>
@@ -970,13 +983,14 @@
 <p>設定好把proxy和防火牆關閉</p>
 <p>再用瀏覽器連到https://[2001:288:6004:17:2020:1:0:7151]:17443</p>
 <p>成功連線</p>
-<h2>Work7</h2>
+<h2>Work8</h2>
 <p>協同設計汽車</p>
 <p><img alt="" height="409" src="/images/輪框.jpg" width="583"/></p>
 <p>這是我所負責的[輪框](https://cad.onshape.com/documents/46d0bf8e21f4a4880f920ed2/w/54d5a5466d038956c4f94262/e/d44ecaff5590026eb2f1a01d)</p>
 <p></p>
 <p>這是我們組ag1所共同組起的車子並已在<span>coppeliasimcoppeliasim完成作動</span></p>
-<p><img alt="" height="648" src="/images/車車.jpg" width="1152"/></p><h1>問題解決</h1>
+<p><img alt="" height="648" src="/images/車車.jpg" width="1152"/></p>
+<h1>問題解決</h1>
 <p><span>在過程中所遇到的問題及解決辦法</span></p>
 <h2>push衝突</h2>
 <p><span>在push的時候總會遇到相互衝突的時候而產生類似下面的文字提示</span></p>
