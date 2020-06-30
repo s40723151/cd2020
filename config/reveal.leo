@@ -80,7 +80,6 @@ Created by [40723151](https://s40723151.github.io/cd2020/content/index.html)
 </t>
 <t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -147,13 +146,14 @@ make.start()
 <t tx="leo.20180902120523.19">## 工作報告
 
 
-### 1.Webots設定[work1](https://s40723151.github.io/cd2020/content/webots%E8%A8%AD%E5%AE%9A.html)
-### 2.xelatex[work2](https://s40723151.github.io/cd2020/content/xelatex.html)
-### 3.瞭解四輪機器人[work3](https://s40723151.github.io/cd2020/content/%E7%9E%AD%E8%A7%A3%E5%9B%9B%E8%BC%AA%E6%A9%9F%E5%99%A8%E4%BA%BA.html)
-### 4.VirtualBox設定IPV4及IPV6[work4](https://s40723151.github.io/cd2020/content/VirtualBox.html)
-### 5.IPV6[work5](https://s40723151.github.io/cd2020/content/Work5.html)
-### 6.利用VirtualBox確認連線問題[work6](https://s40723151.github.io/cd2020/content/Work6.html)
-### 7.協同設計汽車[work7](https://s40723151.github.io/cd2020/content/Work7.html)</t>
+#### 1.Webots設定[work1](https://s40723151.github.io/cd2020/content/webots%E8%A8%AD%E5%AE%9A.html)
+#### 2.xelatex[work2](https://s40723151.github.io/cd2020/content/xelatex.html)
+#### 3.OBS串流設定[work3](https://s40723151.github.io/cd2020/content/OBS%E4%B8%B2%E6%B5%81%E8%A8%AD%E5%AE%9A.html)
+#### 4.瞭解四輪機器人[work4](https://s40723151.github.io/cd2020/content/%E7%9E%AD%E8%A7%A3%E5%9B%9B%E8%BC%AA%E6%A9%9F%E5%99%A8%E4%BA%BA.html)
+#### 5.VirtualBox設定IPV4及IPV6[work5](https://s40723151.github.io/cd2020/content/VirtualBox.html)
+#### 6.IPV6[work6](https://s40723151.github.io/cd2020/content/Work5.html)
+#### 7.利用VirtualBox確認連線問題[work7](https://s40723151.github.io/cd2020/content/Work6.html)
+#### 8.協同設計汽車[work8](https://s40723151.github.io/cd2020/content/Work7.html)</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
