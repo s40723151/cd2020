@@ -31,6 +31,7 @@
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
 <v t="leo.20200629233820.1"><vh>可攜系統</vh>
+<v t="leo.20200701003845.1"><vh>可攜系統</vh></v>
 <v t="leo.20200629233820.2"><vh>可攜系統</vh></v>
 </v>
 <v t="leo.20180902120523.18"><vh>Work</vh>
@@ -334,11 +335,14 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200629233820.2"># 建立可攜系統
-
-### 製作過程
+<t tx="leo.20200629233820.2">
 
 &lt;iframe src="https://s40723151.github.io/cd2020/content/%E5%8F%AF%E6%94%9C%E7%B3%BB%E7%B5%B1.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200701003845.1"># 建立可攜系統
+
+#### 須建立一個根目錄data然後安裝PortableGit.MSYS2.python3.8.1.SciTE.Tiny C Compiler.Jupyterlab.Fossil SCM.Flutter.Webots並以cmd從網路上抓取各種程式及文件
+
 </t>
 </tnodes>
 </leo_file>
