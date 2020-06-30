@@ -48,15 +48,15 @@
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## 協同產品設計實習
 
-### KMOLab
+### from KMOLab
 
 &lt;small&gt;
-Created by [40723151](https://s40723151.github.io/cd2020/content/index.html)
+Created by 40723151 羅裕傑
 &lt;/small&gt;
 
                                             
 [github](https://github.com/s40723151/cd2020)
-
+[webste](https://s40723151.github.io/cd2020/content/index.html)
                                              
 </t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
